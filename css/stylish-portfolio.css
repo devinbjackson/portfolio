@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 body,
@@ -65,6 +65,16 @@ h6 {
   .scroll-to-top i {
     font-weight: 800; }
 
+#about {
+  background-image: url("../img/chris-barbalis-421796.jpg");
+  background-size: cover;
+  color: #FFF; }
+
+@media (min-width: 992px) {
+  height: 100vh;
+  h1 {
+    font-size: 5.5rem; } }
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -76,7 +86,8 @@ h6 {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.836); }
   .masthead h1 {
     font-size: 4rem;
     margin: 0;
@@ -100,7 +111,7 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgba(24, 83, 192, 0.616);
   border-left: 1px solid rgba(255, 255, 255, 0.1); }
 
 .sidebar-nav {
@@ -159,7 +170,7 @@ h6 {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(24, 83, 192, 0.616);
   line-height: 50px;
   z-index: 999; }
   .menu-toggle:focus, .menu-toggle:hover {
@@ -169,7 +180,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: rgba(24, 83, 192, 0.616);
   height: 7rem;
   width: 7rem;
   display: block;
@@ -178,16 +189,34 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
 
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  color: #000;
+  padding: 5rem 0; }
   .callout h2 {
     font-size: 3.5rem;
     font-weight: 700;
     display: block;
+    max-width: 30rem;
+    margin: auto; }
+  .callout i {
+    margin: 5px;
+    font-size: 4rem;
     max-width: 30rem; }
+  .callout .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    padding: 5px;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #000;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+    .callout .social-link i {
+      font-size: 2rem;
+      max-width: 30rem; }
+    .callout .social-link:hover {
+      background-color: rgba(18, 63, 147, 0.616);
+      text-decoration: none; }
 
 .portfolio-item {
   display: block;
@@ -234,46 +263,48 @@ h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); }
       .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, 0.9);
+        background-color: rgba(24, 83, 192, 0.516);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
 
 footer.footer {
   padding-top: 5rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 5rem;
+  background: #FFF;
+  color: black; }
   footer.footer .social-link {
     display: block;
     height: 4rem;
     width: 4rem;
     line-height: 4.3rem;
     font-size: 1.5rem;
-    background-color: #1D809F;
+    background-color: rgba(24, 83, 192, 0.616);
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
     footer.footer .social-link:hover {
-      background-color: #155d74;
+      background-color: rgba(18, 63, 147, 0.616);
       text-decoration: none; }
 
 a {
-  color: #1D809F; }
+  color: rgba(24, 83, 192, 0.616); }
   a:hover, a:focus, a:active {
-    color: #155d74; }
+    color: rgba(18, 63, 147, 0.616); }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: rgba(24, 83, 192, 0.616) !important;
+  border-color: rgba(24, 83, 192, 0.616) !important;
   color: #fff !important; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #155d74 !important;
-    border-color: #155d74 !important; }
+    background-color: rgba(18, 63, 147, 0.616) !important;
+    border-color: rgba(18, 63, 147, 0.616) !important; }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: #479937 !important;
+  border-color: #479937 !important;
   color: #fff !important; }
   .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-    background-color: #ba9106 !important;
-    border-color: #ba9106 !important; }
+    background-color: #36732a !important;
+    border-color: #36732a !important; }
 
 .btn-dark {
   color: #fff !important; }
@@ -283,10 +314,10 @@ a {
   font-weight: 700; }
 
 .bg-primary {
-  background-color: #1D809F !important; }
+  background-color: rgba(24, 83, 192, 0.616) !important; }
 
 .text-primary {
-  color: #1D809F !important; }
+  color: rgba(24, 83, 192, 0.616) !important; }
 
 .text-secondary {
-  color: #ecb807 !important; }
+  color: #479937 !important; }

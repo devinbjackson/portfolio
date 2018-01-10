@@ -87,3 +87,15 @@ h6 {
     font-weight: 800;
   }
 }
+#about{
+  background-image: url('../img/chris-barbalis-421796.jpg');
+  background-size: cover;
+  color: #FFF;
+}
+@media (min-width: 992px) {
+  height: 100vh;
+  h1 {
+    font-size: 5.5rem;
+  }
+}
+

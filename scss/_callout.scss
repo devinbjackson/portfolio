@@ -1,14 +1,42 @@
 // Callout
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-callout.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: $black;
+  padding: 5rem 0;
+  // background: linear-gradient(90deg, fade-out($white, 0.9) 0%, fade-out($white, 0.9) 100%), url('../img/bg-callout.jpg');
+  // background-position: center center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   h2 {
     font-size: 3.5rem;
     font-weight: 700;
     display: block;
     max-width: 30rem;
+    margin:auto;
+  }
+  i{
+    margin: 5px;
+    font-size: 4rem;
+    max-width: 30rem;
+  }
+  .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    i{
+      font-size: 2rem;
+      max-width: 30rem;
+    }
+    padding: 5px;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: $black;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: darken($primary, 10%);
+      text-decoration: none;
+    }
   }
 }
+
+

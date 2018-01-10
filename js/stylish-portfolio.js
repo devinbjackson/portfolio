@@ -39,7 +39,13 @@
       $('.scroll-to-top').fadeOut();
     }
   });
-
+  $('.ho').hover(
+    function(){ $(this).addClass('colored') },
+    function(){ $(this).removeClass('colored') }
+)
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+});
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
