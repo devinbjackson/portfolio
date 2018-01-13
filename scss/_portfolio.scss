@@ -8,7 +8,7 @@
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: fade-out($gray-900, 0.8);
+    background-color: fade-out($gray-900, .7);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -17,8 +17,11 @@
       color: $white;
       margin: auto 2rem 2rem;
       h2 {
-        font-size: 0.8rem;
+        font-size: 1.4rem;
         text-transform: uppercase;
+      }
+      h3 {
+        font-size: 1rem;
       }
       p {
         font-weight: 300;
@@ -51,7 +54,7 @@
         clip-path: inset(2rem);
       }
       .caption {
-        background-color: fade-out($primary, 0.1);
+        background-color: $primary;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
       }
